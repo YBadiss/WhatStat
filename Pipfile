@@ -16,3 +16,7 @@ textblob-fr = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+analyze = "python analyze.py"
+
