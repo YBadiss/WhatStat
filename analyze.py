@@ -40,4 +40,5 @@ if __name__ == "__main__":
         grouped_messages = Message.parse_chat(chat, user_number_map)
 
     with time_it('Stats'):
-        pprint(compute_stats(grouped_messages))
+        stats = compute_stats(grouped_messages)
+        pprint(stats)
